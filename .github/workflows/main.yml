@@ -3,7 +3,7 @@ on:
 jobs:
   test-project:
     name: Test Project
-    runs-on: windows-11
+    runs-on: windows-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
